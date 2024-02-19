@@ -1,15 +1,18 @@
 <template>
   <Nav />
   <Header />
+  <About />
 </template>
 <script>
 import Nav from "./components/Nav.vue";
 import Header from "./components/Header.vue";
+import About from "./components/About.vue";
 export default {
   name: "App",
   components: {
     Nav,
     Header,
+    About,
   },
 };
 </script>

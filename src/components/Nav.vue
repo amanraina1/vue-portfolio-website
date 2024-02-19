@@ -16,10 +16,11 @@ export default {
 </script>
 <style scoped>
 .nav-container {
+  margin-top: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
   min-width: 200px;
   height: 100px;
 }
@@ -27,7 +28,7 @@ export default {
   font-size: 2.4em;
   font-weight: 800;
   cursor: pointer;
-  color: aliceblue;
+  color: cornflowerblue;
 }
 .non-bullet {
   list-style: none;

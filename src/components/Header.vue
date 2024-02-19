@@ -33,26 +33,26 @@ export default {
 <style>
 .hero {
   display: flex;
-  height: 400px;
+  align-items: center;
+  height: 500px;
   margin-top: 150px;
 }
 .hero .hero-img-container {
   display: flex;
   justify-content: end;
   width: 50%;
-  /* background-color: blue; */
 }
 .hero .hero-img-container .hero-img {
   width: 400px;
-  height: 100%;
+  height: 480px;
   background-color: #fff;
   border-radius: 50%;
   overflow: hidden;
 }
 .hero .hero-img-container .hero-img img {
   max-width: 300px;
-  transform: translateY(25%);
-  scale: 2;
+  transform: translateY(30%);
+  scale: 2.7;
 }
 .info {
   /* background-color: orange; */
@@ -61,7 +61,6 @@ export default {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-
   padding-left: 50px;
   padding-top: 40px;
   padding-bottom: 40px;
