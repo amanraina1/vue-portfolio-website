@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="top">
-      <div class="light-text">Get To Know More</div>
-      <div class="dark-text">About Me</div>
+      <div class="light-text">Explore My</div>
+      <div class="dark-text">Experience</div>
     </div>
     <div class="bottom">
       <div class="left">

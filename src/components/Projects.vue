@@ -59,7 +59,6 @@ export default {
   color: black;
   font-size: 59.2px;
 }
-
 .top {
   /* background-color: blue; */
   width: 100%;
@@ -70,7 +69,6 @@ export default {
   justify-content: center;
   gap: 20px;
 }
-
 .bottom {
   width: 100%;
   height: 80%;

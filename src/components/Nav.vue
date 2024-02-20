@@ -16,13 +16,15 @@ export default {
 </script>
 <style scoped>
 .nav-container {
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: cornflowerblue;
-  min-width: 200px;
+  width: 100vw;
   height: 20vh;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 .nav-brand {
   font-size: 2.4em;

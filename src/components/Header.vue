@@ -34,7 +34,7 @@ export default {
 .hero {
   display: flex;
   align-items: center;
-  height: 75vh;
+  height: 80vh;
   /* margin-top: 100px; */
   background-color: #f6f6f6;
 }
@@ -46,7 +46,7 @@ export default {
 }
 .hero .hero-img-container .hero-img {
   width: 400px;
-  height: 480px;
+  height: 400px;
   background-color: rgb(241, 241, 241);
   border-radius: 50%;
   overflow: hidden;
@@ -54,8 +54,8 @@ export default {
 }
 .hero .hero-img-container .hero-img img {
   max-width: 300px;
-  transform: translateY(30%);
-  scale: 2.7;
+  transform: translateY(25%);
+  scale: 2;
 }
 .hero .hero-img-container .hero-img img:hover {
   cursor: pointer;
