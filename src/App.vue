@@ -31,8 +31,10 @@ export default {
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  scroll-behavior: smooth;
   /* background-color: rgb(241, 241, 241); */
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }

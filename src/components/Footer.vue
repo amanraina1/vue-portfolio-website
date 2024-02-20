@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="footer">
     <div class="top">
       <div class="text">
         <div class="light-text">Get in Touch</div>
@@ -23,10 +23,21 @@
     <div class="bottom">
       <div class="footer-links">
         <ul>
-          <li>About</li>
-          <li>Experience</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <a href="#nav">
+            <li>Info</li>
+          </a>
+          <a href="#about">
+            <li>About</li>
+          </a>
+          <a href="#experience">
+            <li>Experience</li>
+          </a>
+          <a href="#projects">
+            <li>Projects</li>
+          </a>
+          <a href="#footer">
+            <li class="no-style">Contact</li>
+          </a>
         </ul>
       </div>
       <div class="copyright">
@@ -131,10 +142,11 @@ export default {
   display: flex;
   gap: 70px;
 }
-.bottom .footer-links ul li {
+.bottom .footer-links ul a {
   color: aliceblue;
   font-size: 25px;
   font-weight: 400;
+  text-decoration: none;
 }
 .bottom .footer-links ul li:hover {
   cursor: pointer;

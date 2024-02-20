@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero" id="header">
     <div class="hero-img-container">
       <div class="hero-img">
         <img src="../Images/aman.jpg" alt="Photo of Aman" />
@@ -16,7 +16,7 @@
         >
           <button>Download Résume</button>
         </a>
-        <a href="#" target="_blank">
+        <a href="#footer">
           <button class="contact-button">Contact Info</button>
         </a>
       </span>

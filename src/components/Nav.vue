@@ -1,11 +1,19 @@
 <template>
-  <nav class="nav-container">
+  <nav class="nav-container" id="nav">
     <div class="nav-brand">Aman Raina</div>
     <ul class="non-bullet">
-      <li>About</li>
-      <li>Experience</li>
-      <li>Projects</li>
-      <li>Contact</li>
+      <a href="#about">
+        <li>About</li>
+      </a>
+      <a href="#experience">
+        <li>Experience</li>
+      </a>
+      <a href="#projects">
+        <li>Projects</li>
+      </a>
+      <a href="#footer">
+        <li class="no-style">Contact</li>
+      </a>
     </ul>
   </nav>
 </template>
@@ -40,11 +48,15 @@ export default {
   font-size: 1.4em;
   font-weight: 500;
 }
-.non-bullet li:hover {
+.non-bullet a li:hover {
   cursor: pointer;
   text-decoration: underline;
   transform: scale(1.1);
   transition: all 0.4s ease;
   color: #f6f6f6;
+}
+.nav-container ul a {
+  text-decoration: none;
+  color: black;
 }
 </style>

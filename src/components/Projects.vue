@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="projects">
     <div class="top">
       <div class="light-text">Browse My Recent</div>
       <div class="dark-text">Projects</div>
@@ -7,32 +7,62 @@
     <div class="bottom">
       <div class="border">
         <div class="image">
-          <img src="../Images/Hero Image.svg" alt="Project photo" />
+          <img src="../Images/vue-restaurant.png" alt="Project photo" />
         </div>
-        <div class="project-number">Project One</div>
+        <div class="project-number">Restaurant App</div>
         <div class="links">
-          <button>Demo Video</button>
-          <button>Github</button>
+          <a
+            target="_blank"
+            href="https://x.com/amanraina9086/status/1759970457241993423?s=20"
+          >
+            <button>Demo Video</button>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/amanraina1/vue-restaurant-app"
+          >
+            <button>Github</button>
+          </a>
         </div>
       </div>
       <div class="border">
         <div class="image">
-          <img src="../Images/Hero Image.svg" alt="Project photo" />
+          <img src="../Images/todo.png" alt="Project photo" />
         </div>
-        <div class="project-number">Project Two</div>
+        <div class="project-number">Todo App</div>
         <div class="links">
-          <button>Demo Video</button>
-          <button>Github</button>
+          <a
+            target="_blank"
+            href="https://x.com/amanraina9086/status/1743617412790944020?s=20"
+          >
+            <button>Demo Video</button>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/amanraina1/task-manager-app"
+          >
+            <button>Github</button>
+          </a>
         </div>
       </div>
       <div class="border">
         <div class="image">
-          <img src="../Images/Hero Image.svg" alt="Project photo" />
+          <img src="../Images/vue-expenseTracker.png" alt="Project photo" />
         </div>
-        <div class="project-number">Project Three</div>
+        <div class="project-number">Expense Tracker</div>
         <div class="links">
-          <button>Demo Video</button>
-          <button>Github</button>
+          <a
+            target="_blank"
+            href="https://x.com/amanraina9086/status/1759969318333276443?s=20"
+          >
+            <button>Demo Video</button>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/amanraina1/expense-tracker"
+          >
+            <button>Github</button>
+          </a>
         </div>
       </div>
     </div>
@@ -93,17 +123,21 @@ export default {
 }
 
 .bottom .border .image {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-top: 20px;
   border-radius: 30px;
-  width: 250px;
+  width: 300px;
   height: 250px;
   overflow: hidden;
 }
 
 .bottom .border .image img {
-  width: 250px;
-  height: 200px;
+  object-fit: cover;
+  transform: translateY(20%);
+  width: 100%;
+  scale: 1.9;
+  /* width: 250px;
+  height: 200px; */
 }
 
 .bottom .border .project-number {

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="about">
     <div class="top-container">
       <div class="light-text">Get To Know More</div>
       <div class="dark-text">About Me</div>
@@ -76,6 +76,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
