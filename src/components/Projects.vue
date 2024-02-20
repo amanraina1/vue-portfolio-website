@@ -11,6 +11,7 @@
         </div>
         <div class="project-number">Project One</div>
         <div class="links">
+          <button>Demo Video</button>
           <button>Github</button>
         </div>
       </div>
@@ -20,6 +21,7 @@
         </div>
         <div class="project-number">Project Two</div>
         <div class="links">
+          <button>Demo Video</button>
           <button>Github</button>
         </div>
       </div>
@@ -29,6 +31,7 @@
         </div>
         <div class="project-number">Project Three</div>
         <div class="links">
+          <button>Demo Video</button>
           <button>Github</button>
         </div>
       </div>
@@ -109,7 +112,12 @@ export default {
   font-weight: 700;
   margin: 10px;
 }
-
+.bottom .border .links {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
 .bottom .border .links button {
   border: 2px solid black;
   background-color: #fff;

@@ -29,20 +29,18 @@
             <span>College of Technology, Pantnagar</span>
           </div>
         </div>
-        <span class="bottom"
-          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
-          harum quia repellat eveniet quod eius commodi! Vel aperiam perferendis
-          dolorem laboriosam magni rem et qui voluptatem, fuga in, eum sint
-          quaerat blanditiis iste soluta similique cum. Fuga omnis assumenda
-          natus tenetur ex, expedita animi dicta, ullam, quasi totam iusto
-          ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Architecto quis hic voluptatibus veniam sapiente dolore in! Et cum
-          molestiae, provident sit quos, voluptas possimus mollitia dolore
-          aspernatur vitae soluta architecto, veniam doloribus porro est
-          reiciendis enim explicabo in voluptates aperiam. Maiores sapiente
-          doloremque odio sequi reiciendis animi, necessitatibus praesentium
-          iste.</span
-        >
+        <span class="bottom">
+          Hi, Being an adult, I possess new and innovative ideas. I have the
+          dedication and determination towards work. I am able to adapt myself
+          to the requirements of the organizations. And being a fresher i need a
+          platform to explore my knowledge. Therefore, I hope your requirements
+          and my needs will match. have worked in various projects in as you can
+          see in my resume. I have thorough knowledge working with HTML, CSS,
+          JavaScript, Tailwind, Bootstrap, NodeJs, Express and MongoDB and i am
+          also in the phase of learning REACT. I can showcase my talent and
+          prove my skills here, while in turn, I can learn how this industry
+          functions in and out. That is why you may hire me for this internship.
+        </span>
       </div>
     </div>
   </div>
@@ -111,16 +109,19 @@ export default {
 }
 
 .bottom-container .right-container {
+  /* background-color: blue; */
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  padding: 100px;
+  align-items: center;
 }
 
 .bottom-container .right-container .top {
+  /* background-color: green; */
+  width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .right-container .top .right-box span img {
@@ -150,7 +151,13 @@ export default {
 }
 
 .bottom-container .right-container .bottom {
-  padding-left: auto;
-  padding-right: auto;
+  /* background-color: red; */
+  padding: auto;
+  /* text-align: center; */
+  width: 65%;
+  word-break: break-all;
+  line-height: 125%;
+  font-size: large;
+  color: rgb(90, 89, 89);
 }
 </style>
