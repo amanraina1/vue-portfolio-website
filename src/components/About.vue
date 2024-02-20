@@ -18,7 +18,7 @@
             </span>
             <span>Fresher</span>
             <span>Looking for opportunities</span>
-            <span>Frontend Development</span>
+            <span>Full Stack Development</span>
           </div>
           <div class="right-box">
             <span>
@@ -56,8 +56,9 @@ export default {
 
 <style scoped>
 .container {
-  margin-top: 200px;
-  height: 700px;
+  margin-top: 10vh;
+  height: 90vh;
+  /* background-color: red; */
 }
 
 .top-container .light-text {
@@ -71,6 +72,7 @@ export default {
 }
 
 .top-container {
+  /* background-color: green; */
   width: 100%;
   height: 20%;
   display: flex;
@@ -82,7 +84,7 @@ export default {
 .bottom-container {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .bottom-container .left-container {

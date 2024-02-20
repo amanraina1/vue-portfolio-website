@@ -34,8 +34,8 @@ export default {
 .hero {
   display: flex;
   align-items: center;
-  height: 600px;
-  margin-top: 150px;
+  height: 75vh;
+  /* margin-top: 100px; */
   background-color: #f6f6f6;
 }
 .hero .hero-img-container {

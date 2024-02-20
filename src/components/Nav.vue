@@ -16,19 +16,19 @@ export default {
 </script>
 <style scoped>
 .nav-container {
-  margin-top: 50px;
+  margin-top: 5vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* background-color: cornflowerblue; */
+  background-color: cornflowerblue;
   min-width: 200px;
-  height: 100px;
+  height: 20vh;
 }
 .nav-brand {
   font-size: 2.4em;
   font-weight: 800;
   cursor: pointer;
-  color: cornflowerblue;
+  color: #f6f6f6;
 }
 .non-bullet {
   list-style: none;

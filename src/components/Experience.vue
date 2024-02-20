@@ -108,11 +108,9 @@ export default {
 
 <style scoped>
 .container {
+  margin-top: 10vh;
+  height: 90vh;
   background-color: #f6f6f6;
-}
-.container {
-  margin-top: 200px;
-  height: 700px;
   /* background-color: red; */
 }
 

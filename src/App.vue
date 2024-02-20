@@ -3,12 +3,16 @@
   <Header />
   <About />
   <Experience />
+  <Projects />
+  <Footer />
 </template>
 <script>
 import Nav from "./components/Nav.vue";
 import Header from "./components/Header.vue";
 import About from "./components/About.vue";
 import Experience from "./components/Experience.vue";
+import Projects from "./components/Projects.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
@@ -16,6 +20,8 @@ export default {
     Header,
     About,
     Experience,
+    Projects,
+    Footer,
   },
 };
 </script>
