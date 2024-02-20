@@ -92,12 +92,14 @@ export default {
   width: 40%;
   height: 100%;
 }
+
 .bottom-container .left-container .img-container {
-  background-color: rgb(187, 187, 187);
+  background-color: rgb(137, 137, 137);
   border-radius: 30px;
   padding: 20px;
   height: 400px;
 }
+
 .bottom-container .left-container .img-container img {
   max-width: 450px;
 }
@@ -143,5 +145,10 @@ export default {
   border: 2px solid black;
   border-radius: 20px;
   margin: 20px;
+}
+
+.bottom-container .right-container .bottom {
+  padding-left: auto;
+  padding-right: auto;
 }
 </style>

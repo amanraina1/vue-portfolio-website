@@ -39,20 +39,25 @@ export default {
 }
 .hero .hero-img-container {
   display: flex;
+  padding-right: 30px;
   justify-content: end;
   width: 50%;
 }
 .hero .hero-img-container .hero-img {
   width: 400px;
   height: 480px;
-  background-color: #fff;
+  background-color: rgb(241, 241, 241);
   border-radius: 50%;
   overflow: hidden;
+  box-shadow: 10px 10px 15px rgb(11, 135, 212);
 }
 .hero .hero-img-container .hero-img img {
   max-width: 300px;
   transform: translateY(30%);
   scale: 2.7;
+}
+.hero .hero-img-container .hero-img img:hover {
+  cursor: pointer;
 }
 .info {
   /* background-color: orange; */
@@ -83,13 +88,13 @@ export default {
   color: #fff;
 }
 .info span .contact-button:hover {
-  background-color: #fff;
+  background-color: rgb(241, 241, 241);
   color: rgb(65, 64, 64);
   border: 2px solid black;
 }
 .info span button {
   border: 2px solid black;
-  background-color: #fff;
+  background-color: rgb(241, 241, 241);
   padding: 20px 25px;
   border-radius: 30px;
   margin: 10px;
