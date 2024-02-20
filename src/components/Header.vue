@@ -10,26 +10,39 @@
       <span class="nav-brand">Aman Raina</span>
       <span class="occ">Frontend Developer</span>
       <span>
-        <button>Download Résume</button>
-        <button class="contact-button">Contact Info</button>
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1bTrrqla_A6CpxDmE2ih3O4AeE6nurVLR/view?usp=sharing"
+        >
+          <button>Download Résume</button>
+        </a>
+        <a href="#" target="_blank">
+          <button class="contact-button">Contact Info</button>
+        </a>
       </span>
       <span class="logo">
-        <img title="Github" src="../Images/github.svg" alt="github_logo" />
-        <img
-          title="LinkedIn"
-          class="link_logo"
-          src="../Images/linkedin.svg"
-          alt="linkedin_logo"
-        />
+        <a href="https://github.com/amanraina1" target="_blank">
+          <img title="Github" src="../Images/github.svg" alt="github_logo" />
+        </a>
+        <a href="https://www.linkedin.com/in/amanraina22/" target="_blank">
+          <img
+            title="LinkedIn"
+            class="link_logo"
+            src="../Images/linkedin.svg"
+            alt="linkedin_logo"
+          />
+        </a>
       </span>
     </div>
   </section>
 </template>
+
 <script>
 export default {
   name: "Header",
 };
 </script>
+
 <style>
 .hero {
   display: flex;
@@ -38,12 +51,14 @@ export default {
   /* margin-top: 100px; */
   background-color: #f6f6f6;
 }
+
 .hero .hero-img-container {
   display: flex;
   padding-right: 30px;
   justify-content: end;
   width: 50%;
 }
+
 .hero .hero-img-container .hero-img {
   width: 400px;
   height: 400px;
@@ -52,14 +67,17 @@ export default {
   overflow: hidden;
   /* box-shadow: 10px 10px 15px rgb(11, 135, 212); */
 }
+
 .hero .hero-img-container .hero-img img {
   max-width: 300px;
   transform: translateY(25%);
   scale: 2;
 }
+
 .hero .hero-img-container .hero-img img:hover {
   cursor: pointer;
 }
+
 .info {
   /* background-color: orange; */
   width: 30%;
@@ -71,28 +89,34 @@ export default {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .info .occ {
   font-size: 2rem;
 }
+
 .info .nav-brand {
   font-size: 3rem;
   color: black;
 }
+
 .info span {
   font-size: larger;
   font-weight: 700;
   color: rgb(71, 71, 71);
 }
+
 .info span .contact-button {
   border: none;
   background-color: rgb(65, 64, 64);
   color: #fff;
 }
+
 .info span .contact-button:hover {
   background-color: rgb(241, 241, 241);
   color: rgb(65, 64, 64);
   border: 2px solid black;
 }
+
 .info span button {
   border: 2px solid black;
   background-color: rgb(241, 241, 241);
@@ -102,19 +126,23 @@ export default {
   font-size: 0.9rem;
   cursor: pointer;
 }
+
 .info span button:hover {
   background-color: rgb(65, 64, 64);
   color: #fff;
 }
+
 .hero .info .logo img {
   width: 30px;
 }
+
 .info .logo {
   display: flex;
   align-items: center;
   gap: 10px;
   cursor: pointer;
 }
+
 .info .logo .link_logo {
   scale: 1.14;
 }

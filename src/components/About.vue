@@ -36,9 +36,9 @@
           platform to explore my knowledge. Therefore, I hope your requirements
           and my needs will match. have worked in various projects in as you can
           see in my resume. I have thorough knowledge working with HTML, CSS,
-          JavaScript, Tailwind, Bootstrap, NodeJs, Express and MongoDB and i am
-          also in the phase of learning REACT. I can showcase my talent and
-          prove my skills here, while in turn, I can learn how this industry
+          JavaScript, VueJS, Tailwind, Bootstrap, NodeJs, Express and MongoDB
+          and i am also in the phase of learning REACT. I can showcase my talent
+          and prove my skills here, while in turn, I can learn how this industry
           functions in and out. That is why you may hire me for this internship.
         </span>
       </div>

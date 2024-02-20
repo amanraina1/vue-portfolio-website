@@ -8,11 +8,15 @@
       <div class="links">
         <span class="mail">
           <img src="../Images/mail.svg" />
-          <span>amanraina9086@gmail.com</span>
+          <a href="mailto:amanraina9086@gmail.com" target="_blank"
+            >amanraina9086@gmail.com</a
+          >
         </span>
         <span class="mail">
           <img src="../Images/mail.svg" />
-          <span>LinkedIn</span>
+          <a href="https://www.linkedin.com/in/amanraina22/" target="_blank"
+            >LinkedIn</a
+          >
         </span>
       </div>
     </div>
@@ -44,6 +48,7 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border-top: 2px solid skyblue;
 }
 .top {
   /* background-color: red; */
@@ -94,6 +99,13 @@ export default {
   gap: 10px;
   cursor: pointer;
   color: aliceblue;
+}
+.top .links .mail a {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+.top .links .mail a:hover {
+  text-decoration: underline;
 }
 .top .links .mail img {
   width: 30px;

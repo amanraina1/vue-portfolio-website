@@ -44,7 +44,7 @@ export default {
   cursor: pointer;
   text-decoration: underline;
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.4s ease;
   color: #f6f6f6;
 }
 </style>

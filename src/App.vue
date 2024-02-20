@@ -33,4 +33,15 @@ export default {
   font-family: sans-serif;
   /* background-color: rgb(241, 241, 241); */
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff65;
+  /* border-radius: 10px; */
+}
+::-webkit-scrollbar-thumb {
+  background-color: cornflowerblue;
+  /* border-radius: 10px; */
+}
 </style>

@@ -34,21 +34,21 @@
               <img src="../Images/check.svg" />
               <div class="box">
                 <span class="dark-text">Vue</span>
-                <span class="light-text">Experienced</span>
+                <span class="light-text">Intermediate</span>
               </div>
             </div>
             <div class="skills">
               <img src="../Images/check.svg" />
               <div class="box">
                 <span class="dark-text">Tailwind CSS</span>
-                <span class="light-text">Experienced</span>
+                <span class="light-text">Intermediate</span>
               </div>
             </div>
             <div class="skills">
               <img src="../Images/check.svg" />
               <div class="box">
                 <span class="dark-text">React</span>
-                <span class="light-text">Experienced</span>
+                <span class="light-text">Beginner</span>
               </div>
             </div>
           </div>
@@ -62,35 +62,35 @@
               <img src="../Images/check.svg" />
               <div class="box">
                 <span class="dark-text">NodeJs</span>
-                <span class="light-text">Experienced</span>
+                <span class="light-text">Intermediate</span>
               </div>
             </div>
             <div class="skills">
               <img src="../Images/check.svg" />
               <div class="box">
                 <span class="dark-text">ExpressJs</span>
-                <span class="light-text">Experienced</span>
+                <span class="light-text">Intermediate</span>
               </div>
             </div>
             <div class="skills">
               <img src="../Images/check.svg" />
               <div class="box">
                 <span class="dark-text">MongoDB</span>
-                <span class="light-text">Experienced</span>
+                <span class="light-text">Intermediate</span>
               </div>
             </div>
             <div class="skills">
               <img src="../Images/check.svg" />
               <div class="box">
                 <span class="dark-text">Git/Github</span>
-                <span class="light-text">Experienced</span>
+                <span class="light-text">Intermediate</span>
               </div>
             </div>
             <div class="skills">
               <img src="../Images/check.svg" />
               <div class="box">
                 <span class="dark-text">Postman</span>
-                <span class="light-text">Experienced</span>
+                <span class="light-text">Intermediate</span>
               </div>
             </div>
           </div>
