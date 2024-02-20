@@ -34,8 +34,9 @@ export default {
 .hero {
   display: flex;
   align-items: center;
-  height: 500px;
+  height: 600px;
   margin-top: 150px;
+  background-color: #f6f6f6;
 }
 .hero .hero-img-container {
   display: flex;
@@ -49,7 +50,7 @@ export default {
   background-color: rgb(241, 241, 241);
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 10px 10px 15px rgb(11, 135, 212);
+  /* box-shadow: 10px 10px 15px rgb(11, 135, 212); */
 }
 .hero .hero-img-container .hero-img img {
   max-width: 300px;

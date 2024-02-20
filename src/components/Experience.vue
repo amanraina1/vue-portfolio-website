@@ -108,6 +108,9 @@ export default {
 
 <style scoped>
 .container {
+  background-color: #f6f6f6;
+}
+.container {
   margin-top: 200px;
   height: 700px;
   /* background-color: red; */
@@ -177,7 +180,7 @@ export default {
   align-items: start;
   gap: 20px;
   padding: 10px;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .container .bottom .left .border .footer .skills .box {
@@ -242,7 +245,7 @@ export default {
   align-items: start;
   gap: 20px;
   padding: 10px;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .container .bottom .right .border .footer .skills .box {
