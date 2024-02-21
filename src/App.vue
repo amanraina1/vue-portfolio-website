@@ -2,9 +2,9 @@
   <Nav />
   <Header />
   <About />
-  <!-- <Experience />
+  <Experience />
   <Projects />
-  <Footer /> -->
+  <Footer />
 </template>
 <script>
 import Nav from "./components/Nav.vue";

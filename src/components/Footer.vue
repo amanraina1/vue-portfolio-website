@@ -96,11 +96,12 @@ export default {
 }
 .top .links {
   /* background-color: green; */
-  padding: 30px;
+  padding: 1rem;
   border-radius: 40px;
   border: 2px solid white;
   display: flex;
-  gap: 50px;
+  flex-direction: column;
+  gap: 10px;
   margin-bottom: 60px;
 }
 .top .links .mail {
@@ -140,7 +141,7 @@ export default {
   margin-bottom: 40px;
   list-style: none;
   display: flex;
-  gap: 70px;
+  gap: 2rem;
 }
 .bottom .footer-links ul a {
   color: aliceblue;
