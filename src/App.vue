@@ -1,8 +1,8 @@
 <template>
   <Nav />
   <Header />
-  <!-- <About />
-  <Experience />
+  <About />
+  <!-- <Experience />
   <Projects />
   <Footer /> -->
 </template>
