@@ -1,10 +1,10 @@
 <template>
   <Nav />
   <Header />
-  <About />
+  <!-- <About />
   <Experience />
   <Projects />
-  <Footer />
+  <Footer /> -->
 </template>
 <script>
 import Nav from "./components/Nav.vue";
