@@ -177,7 +177,6 @@ export default {
   .container {
     margin-top: 10vh;
     height: 90vh;
-    background-color: red;
   }
 
   .top-container .light-text {
