@@ -36,7 +36,7 @@
             <li>Projects</li>
           </a>
           <a href="#footer">
-            <li class="no-style">Contact</li>
+            <li>Contact</li>
           </a>
         </ul>
       </div>
@@ -54,7 +54,9 @@ export default {
 <style scoped>
 @media screen and (max-width: 1200px) {
   .container {
+    /* background-color: blue; */
     height: 100vh;
+    width: 100vw;
     background-color: #171717;
     display: flex;
     flex-direction: column;
@@ -67,8 +69,8 @@ export default {
     gap: 45px;
     box-shadow: 0rem 1rem 5rem hsla(0, 0%, 71%, 0.2);
     margin-top: 20vh;
-    width: 70%;
-    height: 35%;
+    width: 90%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,13 +78,13 @@ export default {
     border-bottom: 2px solid skyblue;
   }
   .top .text {
-    /* background-color: blue; */
+    /* background-color: green; */
     width: 100%;
     /* height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     /* gap: 20px; */
     /* margin-top: 60px; */
   }
@@ -97,8 +99,9 @@ export default {
   }
   .top .links {
     /* background-color: green; */
-    padding: 10px;
+    padding: 10px 30px;
     border-radius: 40px;
+    gap: 10px;
     border: 2px solid white;
     display: flex;
     flex-direction: column;
@@ -137,18 +140,32 @@ export default {
     gap: 30px;
   }
   .bottom .copyright {
-    font-size: large;
+    /* background-color: black; */
+    padding: 20px;
+    font-size: 1rem;
     color: aliceblue;
   }
+  .bottom .footer-links {
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 50%;
+    word-wrap: break-word;
+  }
   .bottom .footer-links ul {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
     margin-bottom: 40px;
     list-style: none;
     display: flex;
-    gap: 1.4rem;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 1rem;
   }
   .bottom .footer-links ul a {
     color: aliceblue;
-    font-size: 25px;
+    width: 30%;
+    font-size: 1.2rem;
     font-weight: 400;
     text-decoration: none;
   }

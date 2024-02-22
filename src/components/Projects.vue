@@ -80,6 +80,7 @@ export default {
   .container {
     margin-top: 10vh;
     height: 190vh;
+    width: 100vw;
     /* background-color: #f6f6f6; */
     /* background-color: red; */
   }
@@ -87,32 +88,34 @@ export default {
   .top .light-text {
     color: rgb(65, 64, 64);
     font-size: large;
+    letter-spacing: 0.2rem;
   }
 
   .top .dark-text {
     color: black;
-    font-size: 59.2px;
+    font-size: 2.7rem;
   }
   .top {
     /* background-color: blue; */
-    width: 100%;
-    height: 10%;
+    width: 100vw;
+    height: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: flex-end;
   }
   .bottom {
     width: 100%;
-    height: 90%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* padding: 80px; */
+    /* background-color: green; */
   }
 
   .bottom .border {
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,7 +125,8 @@ export default {
     border: 2px solid black;
     height: 450px;
     width: 350px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
 
   .bottom .border .image {

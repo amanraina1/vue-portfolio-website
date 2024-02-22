@@ -64,6 +64,7 @@ export default {
 
 <style scoped>
 /* With hamburger css */
+
 #hamburger-nav {
   display: none;
 }
@@ -159,6 +160,7 @@ export default {
 nav,
 .nav-links {
   display: flex;
+  /* background-color: red; */
 }
 
 nav {

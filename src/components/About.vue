@@ -35,7 +35,11 @@
           to the requirements of the organizations. And being a fresher i need a
           platform to explore my knowledge. Therefore, I hope your requirements
           and my needs will match. have worked in various projects in as you can
-          see in my resume.
+          see in my resume. I have thorough knowledge working with HTML, CSS,
+          JavaScript, Tailwind, Bootstrap, NodeJs, Express and MongoDB and i am
+          also in the phase of learning REACT. I can showcase my talent and
+          prove my skills here, while in turn, I can learn how this industry
+          functions in and out. That is why you may hire me for this internship.
         </span>
       </div>
     </div>
@@ -60,11 +64,15 @@ export default {
   .top-container .light-text {
     color: rgb(65, 64, 64);
     font-size: large;
+    letter-spacing: 0.2rem;
+    /* background-color: blue; */
   }
 
   .top-container .dark-text {
+    width: fit-content;
     color: black;
-    font-size: 3.7rem;
+    font-size: 2.7rem;
+    /* background-color: #fff; */
   }
 
   .top-container {
@@ -74,8 +82,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 0.3rem;
+    justify-content: flex-end;
   }
 
   .bottom-container {
@@ -92,7 +99,6 @@ export default {
     align-items: center;
     width: 100vw;
     height: 30%;
-    padding: 1rem;
     /* background-color: blue; */
   }
 
@@ -102,12 +108,13 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
+    overflow: hidden;
     /* height: 400px; */
   }
 
   .bottom-container .left-container .img-container img {
-    max-width: 15rem;
+    max-width: 15em;
   }
 
   .right-container .top .left-box span img {
@@ -115,19 +122,19 @@ export default {
   }
 
   .bottom-container .right-container {
-    width: 100vw;
+    width: 100%;
     height: 70%;
     /* background-color: orange; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
 
   .bottom-container .right-container .top {
     /* background-color: yellow; */
     width: 100vw;
-    height: 70%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,35 +149,38 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     gap: 0.7rem;
     padding: 1rem 4rem;
     border: 2px solid black;
     border-radius: 20px;
-    margin: 1rem;
+    margin-bottom: 1rem;
   }
 
   .bottom-container .right-container .right-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     gap: 0.7rem;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     border: 2px solid black;
     border-radius: 20px;
-    margin: 1rem;
+    margin-bottom: 1rem;
   }
 
   .bottom-container .right-container .bottom {
     /* background-color: red; */
-    padding: auto;
-    width: 90vw;
-    height: 30%;
-    /* text-align: center; */
-    /* width: 65%; */
-    word-break: break-all;
-    /* line-height: 125%; */
-    font-size: large;
-    color: rgb(90, 89, 89);
+    /* padding: auto; */
+    width: 95vw;
+    height: 40%;
+    text-align: justify;
+    font-weight: 700;
+    /* word-break: break-word; */
+    hyphens: auto;
+    font-size: 0.9rem;
+    line-height: 122%;
+    color: black;
   }
 }
 @media screen and (min-width: 1200px) {

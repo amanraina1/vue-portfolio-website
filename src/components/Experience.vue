@@ -111,6 +111,7 @@ export default {
   .container {
     margin-top: 10vh;
     height: 90vh;
+    width: 100vw;
     background-color: #f6f6f6;
     /* background-color: red; */
   }
@@ -118,22 +119,22 @@ export default {
   .top .light-text {
     color: rgb(65, 64, 64);
     font-size: large;
+    letter-spacing: 0.2rem;
   }
 
   .top .dark-text {
     color: black;
-    font-size: 59.2px;
+    font-size: 2.7rem;
   }
 
   .top {
     /* background-color: blue; */
-    width: 100%;
-    height: 20%;
+    width: 100vw;
+    height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: flex-end;
   }
 
   .container .bottom {
@@ -143,13 +144,13 @@ export default {
     justify-content: center;
     width: 100%;
     height: 80%;
-    padding: 1rem;
+    /* padding: 1rem; */
   }
 
   .container .bottom .left {
     width: 90%;
     height: 50%;
-    margin-bottom: 2rem;
+    margin: 2rem;
     /* background-color: green; */
     display: flex;
     justify-content: center;
@@ -157,12 +158,14 @@ export default {
   }
 
   .container .bottom .left .border {
-    /* padding: 1rem; */
     height: 100%;
     width: 100%;
     /* background-color: red; */
     border: 2px solid black;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     /* padding: 20px; */
     text-align: center;
   }
@@ -170,11 +173,11 @@ export default {
   .container .bottom .left .border .footer {
     /* background-color: green; */
     display: flex;
-    padding: 10px;
+    /* padding: 10px; */
     flex-wrap: wrap;
     overflow: hidden;
     border-radius: 20px;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* gap: 120px; */
     /* justify-content: space-around; */
     /* margin: 20px; */
@@ -213,6 +216,7 @@ export default {
 
   .container .bottom .right {
     width: 90%;
+    margin: 2rem;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -225,7 +229,11 @@ export default {
     width: 100%;
     border: 2px solid black;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     /* padding: 20px; */
+    /* background-color: red; */
     text-align: center;
   }
 
@@ -237,15 +245,14 @@ export default {
 
   .container .bottom .right .border .footer {
     display: flex;
-    flex-direction: column;
-    padding: 10px;
+    /* flex-direction: column; */
+    /* padding: 10px; */
     flex-wrap: wrap;
     overflow: hidden;
     border-radius: 20px;
     /* gap: 120px; */
     /* justify-content: space-around; */
     /* margin: 20px; */
-    /* background-color: red; */
     height: 80%;
   }
 
