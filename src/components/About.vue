@@ -58,7 +58,7 @@ export default {
     /* margin-top: 10vh; */
     height: 100vh;
     width: 100vw;
-    /* background-color: red; */
+    background-color: red;
   }
 
   .top-container .light-text {
@@ -172,14 +172,13 @@ export default {
   .bottom-container .right-container .bottom {
     /* background-color: red; */
     /* padding: auto; */
-    width: 95vw;
+    width: 90vw;
     height: 40%;
     text-align: justify;
     font-weight: 700;
     /* word-break: break-word; */
     hyphens: auto;
     font-size: 0.9rem;
-    line-height: 122%;
     color: black;
   }
 }

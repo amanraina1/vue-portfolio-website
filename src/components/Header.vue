@@ -1,9 +1,8 @@
 <template>
   <section class="hero" id="header">
     <div class="hero-img-container">
-      <div class="hero-img">
-        <img src="../Images/aman.jpg" alt="Photo of Aman" />
-      </div>
+      <img src="../Images/aman.png" alt="Photo of Aman" />
+      <!-- <div class="hero-img"></div> -->
     </div>
     <div class="info">
       <div class="details">
@@ -60,27 +59,34 @@ export default {
   }
 
   .hero .hero-img-container {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    position: relative;
     width: 100%;
     /* background-color: red; */
     height: 50%;
   }
+  .hero .hero-img-container img {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  }
 
-  .hero .hero-img-container .hero-img {
+  /* .hero .hero-img-container .hero-img {
     width: 50vw;
     height: 50vw;
     border-radius: 50%;
     overflow: hidden;
-  }
+  } */
 
-  .hero .hero-img-container .hero-img img {
-    max-width: 200px;
+  /* .hero .hero-img-container .hero-img img {
     transform: translateY(30%);
     scale: 2.5;
     cursor: pointer;
-  }
+  } */
 
   .info {
     /* background-color: orange; */
@@ -172,13 +178,29 @@ export default {
     background-color: #f6f6f6;
     /* background-color: green; */
   }
-
   .hero .hero-img-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    width: 100%;
+    /* background-color: red; */
+    height: 50%;
+  }
+  .hero .hero-img-container img {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  }
+
+  /* .hero .hero-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* background-color: red; */
+   background-color: red; 
     height: 50%;
   }
 
@@ -194,7 +216,7 @@ export default {
     transform: translate(-10%, 15%);
     scale: 1.5;
     cursor: pointer;
-  }
+  } */
 
   .info {
     /* background-color: orange; */
@@ -283,8 +305,22 @@ export default {
     height: 83vh;
     /* background-color: #f6f6f6; */
   }
+  /* .hero .hero-img-container {
+    position: relative;
+    width: 100%;
+    background-color: red;
+    height: 50%;
+  }
+  .hero .hero-img-container img {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  } */
 
   .hero .hero-img-container {
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -292,11 +328,12 @@ export default {
     height: 100%;
   }
 
-  .hero .hero-img-container .hero-img {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    overflow: hidden;
+  .hero .hero-img-container img {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 800px;
   }
 
   .hero .hero-img-container .hero-img img {

@@ -123,6 +123,8 @@ export default {
     color: #f6f6f6;
   }
   .top .links .mail a:hover {
+    transition: all 0.4s ease;
+    text-underline-offset: 1rem;
     text-decoration: underline;
   }
   .top .links .mail img {
@@ -172,6 +174,7 @@ export default {
   .bottom .footer-links ul li:hover {
     cursor: pointer;
     text-decoration: underline;
+    text-underline-offset: 1rem;
     transform: scale(1.1);
     transition: all 0.8s ease;
     color: #f6f6f6;
@@ -243,6 +246,9 @@ export default {
   }
   .top .links .mail a:hover {
     text-decoration: underline;
+    color: #f6f6f6;
+    text-underline-offset: 1rem;
+    transition: all 0.8s ease;
   }
   .top .links .mail img {
     width: 30px;
@@ -261,6 +267,7 @@ export default {
   .bottom .copyright {
     font-size: large;
     color: aliceblue;
+    cursor: default;
   }
   .bottom .footer-links ul {
     margin-bottom: 40px;
@@ -280,6 +287,7 @@ export default {
     transform: scale(1.1);
     transition: all 0.8s ease;
     color: #f6f6f6;
+    text-underline-offset: 1rem;
   }
 }
 </style>

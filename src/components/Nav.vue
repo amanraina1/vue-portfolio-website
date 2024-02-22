@@ -35,7 +35,7 @@
         @click="showMenu = !showMenu"
       >
         <li>
-          <a href="#about">About</a>
+          <a href="#about">About </a>
         </li>
         <li>
           <a href="#experience">Experience</a>
@@ -49,6 +49,9 @@
       </div>
     </div>
   </nav>
+  <span class="arrow">
+    <a href="#about"><img src="../Images/arrow.svg" alt="" /></a>
+  </span>
 </template>
 
 <script>
@@ -64,7 +67,12 @@ export default {
 
 <style scoped>
 /* With hamburger css */
-
+.arrow img {
+  width: 30px;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
 #hamburger-nav {
   display: none;
 }
@@ -92,9 +100,11 @@ export default {
 
 .menu-links {
   position: absolute;
-  top: 100%;
+  top: 140%;
   right: 0;
-  background-color: white;
+  z-index: 3;
+  background-color: rgb(217, 217, 217);
+  border-radius: 20px;
   width: fit-content;
   color: #383737;
   max-height: 0;
@@ -118,6 +128,7 @@ export default {
 
 .menu-links.open {
   max-height: 300px;
+  border: 1px solid black;
 }
 
 .hamburger-icon.open span:first-child {
