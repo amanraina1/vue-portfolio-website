@@ -126,7 +126,7 @@ export default {
     height: 450px;
     width: 350px;
     margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
   }
 
   .bottom .border .image {

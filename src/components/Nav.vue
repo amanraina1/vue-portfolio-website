@@ -49,9 +49,6 @@
       </div>
     </div>
   </nav>
-  <span class="arrow">
-    <a href="#about"><img src="../Images/arrow.svg" alt="" /></a>
-  </span>
 </template>
 
 <script>
@@ -67,12 +64,7 @@ export default {
 
 <style scoped>
 /* With hamburger css */
-.arrow img {
-  width: 30px;
-  position: absolute;
-  right: 10px;
-  bottom: 20px;
-}
+
 #hamburger-nav {
   display: none;
 }
@@ -177,7 +169,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
 }
 
 .nav-container {

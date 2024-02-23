@@ -30,16 +30,22 @@
           </div>
         </div>
         <span class="bottom">
-          Hi, Being an adult, I possess new and innovative ideas. I have the
-          dedication and determination towards work. I am able to adapt myself
-          to the requirements of the organizations. And being a fresher i need a
-          platform to explore my knowledge. Therefore, I hope your requirements
-          and my needs will match. have worked in various projects in as you can
-          see in my resume. I have thorough knowledge working with HTML, CSS,
-          JavaScript, Tailwind, Bootstrap, NodeJs, Express and MongoDB and i am
-          also in the phase of learning REACT. I can showcase my talent and
-          prove my skills here, while in turn, I can learn how this industry
-          functions in and out. That is why you may hire me for this internship.
+          <q>
+            Hi, Being an adult, I possess new and innovative ideas. I have the
+            dedication and determination towards work. I am able to adapt myself
+            to the requirements of the organizations. And being a fresher i need
+            a platform to explore my knowledge. Therefore, I hope your
+            requirements and my needs will match. have worked in various
+            projects in as you can see in my resume. I have thorough knowledge
+            working with
+            <strong
+              >HTML, CSS, JavaScript, Vue, Tailwind, Bootstrap, NodeJs, Express
+              and MongoDB</strong
+            >
+            and i am also in the phase of learning <strong>REACT</strong>. I can
+            showcase my talent and prove my skills here, while in turn, I can
+            learn how this industry functions in and out.
+          </q>
         </span>
       </div>
     </div>
@@ -58,7 +64,7 @@ export default {
     /* margin-top: 10vh; */
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    /* background-color: red; */
   }
 
   .top-container .light-text {
@@ -138,7 +144,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-around;
   }
 
   .right-container .top .right-box span img {
@@ -146,40 +152,48 @@ export default {
   }
 
   .bottom-container .right-container .left-box {
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     overflow: hidden;
-    gap: 0.7rem;
-    padding: 1rem 4rem;
+    /* gap: 0.2rem; */
+    padding-left: 4rem;
+    padding-right: 4rem;
     border: 2px solid black;
     border-radius: 20px;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
   }
 
   .bottom-container .right-container .right-box {
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     overflow: hidden;
-    gap: 0.7rem;
-    padding: 1rem 2rem;
+    /* gap: 0.2rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
     border: 2px solid black;
     border-radius: 20px;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
   }
 
   .bottom-container .right-container .bottom {
     /* background-color: red; */
-    /* padding: auto; */
+    /* padding: 0.3rem; */
     width: 90vw;
     height: 40%;
     text-align: justify;
-    font-weight: 700;
+    /* line-height: 125%; */
+    /* font-weight: 700; */
     /* word-break: break-word; */
     hyphens: auto;
-    font-size: 0.9rem;
-    color: black;
+    font-size: 0.85rem;
+    color: rgb(62, 62, 62);
+    font-style: italic;
   }
 }
 @media screen and (min-width: 1200px) {

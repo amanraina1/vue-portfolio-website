@@ -39,6 +39,9 @@
       </div>
     </div>
   </section>
+  <!-- <span class="arrow">
+    <a href="#about"><img src="../Images/arrow.svg" alt="" /></a>
+  </span> -->
 </template>
 
 <script>
@@ -49,10 +52,16 @@ export default {
 
 <style>
 @media screen and (max-width: 700px) {
+  /* .arrow img {
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+  } */
   .hero {
     display: flex;
     flex-direction: column;
-    height: 83vh;
+    height: 90vh;
     width: 100vw;
     background-color: #f6f6f6;
     /* background-color: green; */
